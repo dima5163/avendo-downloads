@@ -58,6 +58,10 @@ chmod +x Avendo-1.0.17-linux-amd64-*.AppImage
 **Android** — installing the `.apk` directly requires enabling installation from
 unknown sources. Most people should use Google Play instead.
 
+## Getting started with your work
+
+- [A first client-and-job workflow for freelancers](docs/client-and-job-workflow.md)
+
 ## Verifying a download
 
 Each release lists the exact file sizes published by GitHub. Filenames embed the

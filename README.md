@@ -35,10 +35,16 @@ Also available from the app stores:
 
 ## Installing
 
-**Windows** — run the `.msi` or `-setup.exe` for your architecture. A
-[winget package](https://github.com/microsoft/winget-pkgs/pull/432666)
-(`AvendoApp.Avendo`) is currently in review; once merged, `winget install
-AvendoApp.Avendo` will work.
+**Windows** — install with [winget](https://learn.microsoft.com/windows/package-manager/winget/):
+
+```powershell
+winget install --id AvendoApp.Avendo -e
+```
+
+The [`AvendoApp.Avendo`](https://github.com/microsoft/winget-pkgs/tree/master/manifests/a/AvendoApp/Avendo)
+package installs version 1.0.17 from the `.msi` files of this repository's
+releases (x64 and arm64). You can also run the `.msi` or `-setup.exe` for
+your architecture yourself.
 
 **Linux (Debian/Ubuntu)**
 
